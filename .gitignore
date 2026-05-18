@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+.DS_Store
+
+# Local outputs
+runs/
+outputs/
+*.jsonl
+
+# Large artifacts (users may place their own checkpoints here)
+artifacts/**/*.pt
+artifacts/**/*.bin
+artifacts/**/*.safetensors
+
+# Environment
+.env
+venv/
+.venv/
