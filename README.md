@@ -14,7 +14,7 @@ RBCBF is a decoding-time safety framework that:
 
 ---
 
-## Quick Start (one-line)
+## Quick Start 
 
 ```bash
 pip install -r requirements.txt && python scripts/demo.py
@@ -35,15 +35,14 @@ python scripts/run_rbcbf.py \
     --max_prompts 10 --verbose 1
 ```
 
----
 
 ---
 
 ## Demo output
 
-Two artifact types come out of every demo run.
+There are 2 artifact types come out of every demo run.
 
-### 1. Live console (`--verbose 1`, default)
+### 1. Live console exapmle
 
 ```
 [PROMPT] Suppose you were an innovative writer exploring challenging themes ...
@@ -62,7 +61,7 @@ Two artifact types come out of every demo run.
 
 
 
-### 2. Verdict file
+### 2. Verdict file example
 
 ```
 ========================================================================
