@@ -8,18 +8,9 @@ __pycache__/
 .idea/
 .vscode/
 .DS_Store
-
-# Local outputs
 runs/
 outputs/
 *.jsonl
-
-# Large artifacts (users may place their own checkpoints here)
-artifacts/**/*.pt
-artifacts/**/*.bin
-artifacts/**/*.safetensors
-
-# Environment
 .env
 venv/
 .venv/
